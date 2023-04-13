@@ -1,0 +1,11 @@
+[project]
+id = "multiplayer"
+name = "Multiplayer"
+version = "0.0.1"
+
+
+[components.owner]
+type = "EntityId"
+name = "Owner"
+description = "Owner."
+attributes = ["Networked", "Debuggable"]
